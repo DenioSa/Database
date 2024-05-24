@@ -127,7 +127,7 @@ resource "yandex_lb_target_group" "test-1" {
 }
 ```
 1.2. meta.yml
-```
+```yml
 cloud-config
 disable_root: true
 timezone: Europe/Moscow
@@ -154,9 +154,9 @@ users:
       - ssh-rsa  
 ```
 2.![балансировщик и целевая группа](https://github.com/DenioSa/O-O/blob/b7785ed35011af87ad441f6229d73d4c2c626c0f/img/capture_20240525001207341.bmp))
-  ![балансировщик и целевая группа 2](ссылка на скриншот 1)
+  ![балансировщик и целевая группа 2](https://github.com/DenioSa/O-O/blob/d9417539b1b85e3352a1334b2ec9ce95d9cc2dd6/img/capture_20240525001804514.bmp))
   
-3.![IP-адреса балансировщика](ссылка на скриншот 1)`
+3.![IP-адреса балансировщика](https://github.com/DenioSa/O-O/blob/d9417539b1b85e3352a1334b2ec9ce95d9cc2dd6/img/capture_20240525010759008.bmp))`
 
 
 ---
