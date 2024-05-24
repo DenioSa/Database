@@ -125,8 +125,37 @@ resource "yandex_lb_target_group" "test-1" {
     address   = yandex_compute_instance.vm[1].network_interface.0.ip_address
   }
 }
-``` 
-2.![балансировщик и целевая группа](ссылка на скриншот 1)`
+```
+1.2. meta.yml
+```
+cloud-config
+disable_root: true
+timezone: Europe/Moscow
+repo_update: true
+repo_upgrade: true
+apt:
+  preserve_sources_list: true
+
+packages:
+  - nginx
+
+runcmd:
+  - [ systemctl, nginx-reload ]
+  - [ systemctl, enable, nginx.service ]
+  - [ systemctl, start, --no-block, nginx.service ]
+  - [ sh, -c, "echo $(hostname | cut -d '.' -f 1 ) >> /var/www/html/index.html" ]
+
+users:
+  - name: denio
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa  
+```
+2.![балансировщик и целевая группа](https://github.com/DenioSa/O-O/blob/b7785ed35011af87ad441f6229d73d4c2c626c0f/img/capture_20240525001207341.bmp))
+  ![балансировщик и целевая группа 2](ссылка на скриншот 1)
+  
 3.![IP-адреса балансировщика](ссылка на скриншот 1)`
 
 
