@@ -29,7 +29,7 @@
 ### Решение 1
 
 1. main.tf
-terraform {
+``` terraform {
   required_version = "= 1.8.3"
  
   required_providers {
@@ -124,7 +124,7 @@ resource "yandex_lb_target_group" "test-1" {
     address   = yandex_compute_instance.vm[1].network_interface.0.ip_address
   }
 }
-
+``` 
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
