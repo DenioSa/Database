@@ -29,7 +29,7 @@
 ### Решение 1
 
 1. main.tf
-```
+```tf
  terraform {
   required_version = "= 1.8.3"
  
