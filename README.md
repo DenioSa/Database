@@ -44,6 +44,7 @@
 
 ### Решение 4
 
+![key redis](https://github.com/DenioSa/KRM/blob/bb4c42e9eed09392f9225e88ed269e728cc95f60/img/redis_cli.bmp)
 
 ---
 
