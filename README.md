@@ -24,7 +24,7 @@
 
 ### Решение 2
 
-
+![status memcached](https://github.com/DenioSa/KRM/blob/952935ac2aebfb2df5adcf78f71cbca8e10b57ab/img/memcached.bmp)
 
 ### Задание 3. 
 
