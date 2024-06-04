@@ -33,6 +33,7 @@
 
 ### Решение 3
 
+![key memcached](https://github.com/DenioSa/KRM/blob/69eca355f3c477c33bfbda9c16075d962353a6da/img/memcached_key.bmp)
 
 
 ### Задание 4.
