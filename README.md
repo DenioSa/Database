@@ -1,7 +1,7 @@
 # Домашнее задание к занятию "`ELK`" - `Сайфиев Денис`
 
 
-### Задание 1 Elasticsearch
+### Задание 1. Elasticsearch.
 
 Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
@@ -11,7 +11,7 @@
 
 
 
-### Задание 2. Kibana
+### Задание 2. Kibana.
 
 Установите и запустите Kibana.
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
@@ -21,7 +21,7 @@
 ![status memcached](https://github.com/DenioSa/KRM/blob/952935ac2aebfb2df5adcf78f71cbca8e10b57ab/img/memcached.bmp)
 
 
-### Задание 3. Logstash
+### Задание 3. Logstash.
 
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
 
