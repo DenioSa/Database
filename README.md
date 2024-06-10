@@ -9,7 +9,7 @@
 
 ### Решение 1
 
-
+![elasticsearch](https://github.com/DenioSa/KRM/blob/2a280c137312ea804cc337b43250d854f5d2e51c/img/elasticsearch.bmp)
 
 ### Задание 2. Kibana.
 
@@ -18,7 +18,7 @@
 
 ### Решение 2
 
-![status memcached](https://github.com/DenioSa/KRM/blob/952935ac2aebfb2df5adcf78f71cbca8e10b57ab/img/memcached.bmp)
+![kibana](https://github.com/DenioSa/KRM/blob/2a280c137312ea804cc337b43250d854f5d2e51c/img/Kibana.bmp)
 
 
 ### Задание 3. Logstash.
@@ -29,7 +29,7 @@
 
 ### Решение 3
 
-![key memcached](https://github.com/DenioSa/KRM/blob/69eca355f3c477c33bfbda9c16075d962353a6da/img/memcached_key.bmp)
+![logstash](https://github.com/DenioSa/KRM/blob/2a280c137312ea804cc337b43250d854f5d2e51c/img/Logstash.bmp)
 
 
 ### Задание 4. Filebeat.
@@ -40,7 +40,7 @@
 
 ### Решение 4
 
-![key redis](https://github.com/DenioSa/KRM/blob/bb4c42e9eed09392f9225e88ed269e728cc95f60/img/redis_cli.bmp)
+![filebeat](https://github.com/DenioSa/KRM/blob/2a280c137312ea804cc337b43250d854f5d2e51c/img/filebeat.bmp)
 
 ---
 
